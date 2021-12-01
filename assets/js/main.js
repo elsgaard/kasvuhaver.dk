@@ -93,7 +93,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if ( document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 ) {
-    document.getElementById("header").style.background = "#010101";
+    document.getElementById("header").style.background = "#023020"; /* "#7DCEA0"; */
   } else {
     document.getElementById("header").style.background = "transparent";
   }

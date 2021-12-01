@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  	max-height: 57px;
+  	max-height: 82px; /* Logo size change 57px; */
   	transition: all 1s;
 }
 
@@ -348,6 +348,8 @@ h1, h2, h3, h4, h5, h6 {
  * Hero section
  ********************************************************************************/
 
+/* H1 text reduced from 8em to 7em */
+
 .left-slider-h1 {
 	font-family: d-din-bold, sans-serif;
 	color: white; 
@@ -357,11 +359,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left !important;
 	/* padding-left: 3.9% !important; */
 	margin-left: 0.41%;
-	font-size: 8.5em !important; 
+	font-size: 7em !important; 
 	letter-spacing: -5px !important;
 	line-height: 1em;
 }
-@media only screen and (max-width: 1020px) { .left-slider-h1 { font-size: 7em !important; } }
+@media only screen and (max-width: 1020px) { .left-slider-h1 { font-size: 6.2em !important; } }
 @media only screen and (max-width: 900px) { .left-slider-h1 { font-size: 6em !important; margin-left: 0.43%;} }
 @media only screen and (max-width: 740px) { .left-slider-h1 { font-size: 5em !important; } }
 @media only screen and (max-width: 630px) { .left-slider-h1 { font-size: 4em !important; letter-spacing: 1px !important; } }
@@ -372,8 +374,11 @@ h1, h2, h3, h4, h5, h6 {
  * Dark / light section
  ********************************************************************************/
 
+/* Color change */
+
 .section-dark {
-	background: black;
+	/* background: #7DCEA0; */
+	background: #023020;
 }
 
 /********************************************************************************
